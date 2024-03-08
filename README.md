@@ -2,7 +2,14 @@
 
 **Authors:** Fanice Andayi
 ***
-![Image][Tele Image]
+from PIL import Image
+import IPython.display as display
+
+# Use a raw string literal (prefix the string with 'r') to avoid interpreting backslashes as escape characters
+image_path = r"C:\Users\ADMIN\Desktop\ProjectPhase3\ProjectPhase3\Images\Perspectivas-Globais_-O-Assistente-Social-em-Contextos-Internacionais.jpg"
+
+img = Image.open(image_path)
+display.display(img)
 
 ## A)BACKGROUND OF THE INDUSTRY
 
