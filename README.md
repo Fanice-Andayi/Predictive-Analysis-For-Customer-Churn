@@ -62,7 +62,7 @@ The primary objective of this project is to develop a robust predictive model to
 
 8.Conclusion ,Recommendations and Nextsteps.
 
-## 1.BUSINESS UNDERSTANDING
+## BUSINESS UNDERSTANDING
 
 SyriaTel, like many telecommunications companies, faces the pressing challenge of high customer churn rates, which pose significant financial losses and hinder sustainable growth. Conventional churn prediction methods have proven ineffective, leading to wasted resources and suboptimal retention efforts.
 
@@ -87,7 +87,7 @@ Interest: Interested in understanding the financial implications of customer chu
 ### Metric for sucess
 The project will be successful if the model can correctly spot most customers who are likely to leave (High Recall), avoid wrongly flagging too many customers who won't leave (Low False Positive Rate), and perform well when dealing with new data (Reaching 80% accuracy).
 
-## 2.DATA UNDERSTANDING
+## DATA UNDERSTANDING
 
 **Data Source:**
 The dataset used for this project was sourced from Kaggle (Churn in Telecom's dataset) and consists of 3333 rows and 21 columns. It provides comprehensive information on customer attributes and behaviors within the telecommunications domain, enabling analysis and prediction of churn patterns.
@@ -123,7 +123,7 @@ This is a binary classification problem where the goal is to predict the likelih
 **Relevance to the Project:**
 The dataset encompasses various attributes relevant to understanding customer behavior and predicting churn in the telecommunications sector. Key features include customer demographics (e.g., account length, area code), service subscriptions (e.g., international plan, voice mail plan), call usage metrics (e.g., total day minutes, total night calls), and churn status. The 'Churn' column, serving as the target variable, distinguishes between customers who have canceled their service ('True') and those who have not ('False'). This rich dataset forms the foundation for developing a predictive model to identify churn risks accurately and implement targeted retention strategies, aligning with the project's objective of mitigating customer churn effectively.
 
-## 6.MODELING
+## MODELING
 
 In coming up with the best model, the following approach will be taken:
 
@@ -161,7 +161,7 @@ Low False Positive Rate: It avoids wrongly flagging too many customers who won't
 - **Total day charge**: The total charge for daytime calls is noted as an important predictor. Higher charges may contribute to dissatisfaction and ultimately lead to churn. Providing competitive pricing or value-added services could help mitigate this risk.
 - **Voice mail plan**: Whether a customer has a voice mail plan is also identified as a significant predictor. Customers with a voice mail plan are less likely to churn compared to those without one. Promoting the benefits of voice mail plans could help improve customer retention.
 
-## 8.CONCLUSION
+## CONCLUSION
 
 ## Limitations
 
